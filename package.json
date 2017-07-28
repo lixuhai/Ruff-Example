@@ -1,0 +1,28 @@
+{
+    "name": "ruff-example",
+    "version": "0.2.0",
+    "description": "this is an example for javascript and IOT development",
+    "author": "lixuhai",
+    "main": "src/index.js",
+    "scripts": {
+        "server": "forever start -l `pwd`/logs/runtime.log -a src/node-server/server.js",
+        "start": "rap deploy -s"
+    },
+    "ruff": {
+        "boards": {
+            "ruff-mbd-v1": "^4.2.10",
+            "*": "*"
+        },
+        "dependencies": {
+            "lcd1602-pcf8574a-hd44780": "^0.2.7",
+            "gy-30": "^3.0.6",
+            "dht11": "^0.3.6",
+            "button-gpio": "^2.0.8",
+            "fetch": "^0.1.2"
+        },
+        "version": 1
+    },
+    "dependencies": {
+        "influxdb-nodejs": "^2.7.3"
+    }
+}

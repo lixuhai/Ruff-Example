@@ -1,0 +1,8 @@
+{
+    "influx_url": "http://192.168.1.242:8086/officeStatus",
+    "server_url": "http://192.168.1.145:8001/officeStatus",
+    "host": "192.168.1.145",
+    "port": 8001,
+    "collect_interval": 4000,
+    "upload_interval": 30000
+}

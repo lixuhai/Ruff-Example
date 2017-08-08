@@ -1,4 +1,4 @@
-# Ruff Application
+# Ruff Example
 简单的DEMO，包含 采集器端代码 以及 服务器接受端 代码
 
 ### 环境
@@ -20,3 +20,11 @@
 <br/>
 
 运行 `npm run server` 启动服务端程序
+<br/>
+
+### 关于influxdb
+
+```
+influxd -config /usr/local/etc/influxdb.conf
+chronograf
+```

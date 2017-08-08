@@ -6,7 +6,7 @@
     "main": "src/index.js",
     "rapv110": "/Users/lixuhai/Downloads/ruff-sdk-mac-1.10.0/bin/rap",
     "scripts": {
-        "server": "forever start -l `pwd`/logs/runtime.log -a src/node-server/server.js",
+        "server": "node src/node-server/server.js",
         "start": "rap deploy -s",
         "mac": "$npm_package_rapv110 deploy --source -s"
     },
